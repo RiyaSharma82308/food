@@ -1,0 +1,104 @@
+#services{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+body{
+    margin: 0px;
+    padding: 0px;
+    /* border: 2px solid blue; */
+}
+#navbar{
+    display: flex;
+    flex-direction: column;
+}
+#navbar #logo img{
+    height: 100px;
+    width: 100px;
+}
+#navbar ul {
+    display: flex;
+    margin-left: 7px;
+}
+#navbar ul li {
+    padding: 0px;
+    list-style: none;
+}
+#navbar ul li a{
+    font-size: 15px;
+    margin: 5px;
+    padding: 0px;
+}
+#home::before {
+    width: 100%;
+    /* height: 100%; */
+    /* border: 2px solid red; */
+}
+#home h1{
+    font-size: 30px;
+    text-align: center;
+}
+#home p{
+    font-size: 15px;
+    display:block;
+    overflow-wrap:normal;
+    padding-left:0px;
+}
+#home .btn{
+    font-size: 15px;
+    padding: 10px;
+}
+.box{
+    width: 75%;
+    text-align: center;
+}
+#services-container{
+    margin-top: 20px;
+}
+#services-container h1{
+    font-size: 30px;
+}
+#client-section{
+    margin: 0px;
+    padding: 0px;
+}
+#client-section #clients{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+}
+#client-section #clients img{
+    height: 90px;
+    width: 90px;
+    margin-top: 30px;
+}
+#client-section h1{
+    font-size: 30px;
+}
+#client-section::before{
+    margin-top: 40px;
+    height: 350px;
+    width: 100%;
+}
+#contact{
+    margin-top: 0px;
+}
+#contact h1{
+    font-size: 30px;
+    margin-top: 0px;
+}
+#contact label{
+    font-size: 20px;
+}
+#contact input{
+    font-size: 10px;
+}
+#contact::before{
+    margin-top: 40px;
+    width:100%;
+}
+#contact .form-group textarea{
+    width: 100%;
+}
